@@ -1,0 +1,42 @@
+<mat-toolbar color="primary">
+   <mat-toolbar-row>
+      <span><a style="color: #FFFFFF" href="/"><mat-icon>home</mat-icon></a></span>
+      <span class="spacer"></span>
+      <a mat-button routerLink="/sign-up">Register</a>
+      <a mat-button routerLink="/login">Login</a>
+      <a mat-button routerLink="/dashboard">Dashboard</a>
+   </mat-toolbar-row>
+</mat-toolbar>
+<mat-card-content>
+    <mat-toolbar>
+        <span>REGISTER</span>
+      </mat-toolbar>
+    <mat-card>
+    <form [formGroup]="signUpForm" class="my-form">
+       <mat-form-field class="full-width">
+              <mat-label>First Name</mat-label>
+              <input formControlName="firstName" matInput  placeholder="First name"  name="fname"  required>
+           </mat-form-field>
+           <mat-form-field class="full-width">
+              <mat-label>Last Name</mat-label>
+              <input formControlName="lastName" matInput  placeholder="Last Name" name="lname"  required>
+           </mat-form-field>
+           <mat-form-field class="full-width">
+              <mat-label>Address</mat-label>
+              <input formControlName="address" matInput  placeholder="Address" name="address"  required>
+           </mat-form-field>
+           <mat-form-field class="full-width">
+              <mat-label>Email</mat-label>
+              <input formControlName="email" matInput  placeholder="Email" name="email">
+           </mat-form-field>
+           <mat-form-field class="full-width">
+              <mat-label>Password</mat-label>
+              <input formControlName="password" matInput  placeholder="Password"  name="password">
+           </mat-form-field>
+    </form>
+    <mat-card-actions>
+        <button mat-raised-button  color="primary">REGISTER</button>
+      </mat-card-actions>
+</mat-card>
+  </mat-card-content>
+ 

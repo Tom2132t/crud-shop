@@ -1,0 +1,23 @@
+{
+  "employerList": [
+    {
+      "fullName": "Thoma",
+      "job": "Informatics",
+      "hours": "Full Time",
+      "salary": 600,
+      "comment": "Frontend Developer",
+      "date": "2022-02-16T23:00:00.000Z",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

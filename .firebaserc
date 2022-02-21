@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crudshop-a552f": {
+      "hosting": {
+        "crud-shop": [
+          "crudshop-a552f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crudshop-a552f"
+  }
+}
